@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/Logo.png";
+import logo from "../assets/wizia.png"
+
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,9 +31,9 @@ const Navbar = () => {
               
             </div>
           </div>
-          <div className="sm:hidden md:flex gap-4">
-            <button>Book a demo</button>
-            <button>Contact us</button>
+          <div className="hidden md:flex gap-4">
+            <button className=" bg-[#0FF1F6] py-2 px-4 rounded-full text-sm hover:bg-cyan-400 transition-all ">Book a Demo</button>
+            <button className="border-2 border-white text-white py-2 px-4 text-sm rounded-full">Contact us</button>
           </div>
 
           {/* Mobile Menu Button */}

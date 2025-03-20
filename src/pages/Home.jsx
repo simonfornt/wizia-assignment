@@ -6,7 +6,7 @@ import Features from '../Componets/Features';
 import TrainingSection from '../Componets/EmailSection';
 function Home() {
   return (
-    <div>
+    <div className='bg-[#00222d]'>
       <HeroSection/>
       <TrustedPartners/>
       <Features/>

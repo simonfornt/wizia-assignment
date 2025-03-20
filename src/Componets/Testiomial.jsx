@@ -45,7 +45,7 @@ const TestimonialCarousel = ({ data = testimonials }) => {
   // ... keep existing state and logic
 
   return (
-    <div className="bg-[#00222d] h-[500px] md:min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#002228] h-[500px] md:min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="relative w-full max-w-3xl lg:max-w-4xl xl:max-w-5xl text-center">
         <div className="relative overflow-hidden min-h-[300px] md:min-h-[400px] lg:min-h-[500px]">
           {data.map((testimonial, index) => (

@@ -7,6 +7,7 @@ import TrainingSection from '../Componets/EmailSection';
 import TestimonialCarousel from '../Componets/Testiomial';
 import StatSection from '../Componets/StatSection';
 import OutBond from '../Componets/OutBond';
+import Footer from '../Componets/Footer';
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
     <TestimonialCarousel/>
     <StatSection/>
     <OutBond/>
+    <Footer/>
   
     </div>
   )

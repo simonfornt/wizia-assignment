@@ -4,6 +4,7 @@ import HeroSection from '../Componets/Hero';
 import TrustedPartners from '../Componets/TrustedPartner';
 import Features from '../Componets/Features';
 import TrainingSection from '../Componets/EmailSection';
+import TestimonialCarousel from '../Componets/Testiomial';
 function Home() {
   return (
     <div className='bg-[#00222d]'>
@@ -11,6 +12,8 @@ function Home() {
       <TrustedPartners/>
       <Features/>
     <TrainingSection/>
+    <TestimonialCarousel/>
+  
     </div>
   )
 }

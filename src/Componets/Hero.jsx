@@ -10,11 +10,11 @@ const HeroSection = () => {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat"
         }}
-        className="w-full min-h-screen flex items-center text-white py-20 px-6 md:px-12 lg:px-24"
+        className="w-full  py-20 flex justify-between items-center  text-white  px-6 md:px-12 lg:px-24"
       >
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 w-full">
+        <div className="max-w-7xl mx-auto flex text-center  flex-col md:flex-row items-center gap-12 w-full">
           {/* Text Content */}
-          <div className="flex-1 text-center md:text-left">
+          <div className=" md:text-left">
             <h2 className="text-lg font-monster font-[400] md:text-xl text-[#5EEAD4]  mb-4 font-Mon">
               AI SDRs (aiDRs)
             </h2>

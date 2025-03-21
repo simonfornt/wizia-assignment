@@ -32,11 +32,11 @@ const TrainingSection = () => {
           </p>
 
           {/* Responsive list grid */}
-          <div className="grid grid-cols-1 gap-3 md:grid-cols-2  md:gap-4 font-monster font-[500]">
-            <li className="list-none text-cyan-300 text-base md:text-lg">Quick to ramp</li>
-            <li className="list-none text-cyan-300 text-base md:text-lg">Easy to optimize</li>
-            <li className="list-none text-cyan-300 text-base md:text-lg">Quick to scale up</li>
-            <li className="list-none text-cyan-300 text-base md:text-lg">Works with all your existing tools</li>
+          <div className="grid grid-cols-1 gap-1 md:grid-cols-2  md:gap-2 font-monster font-[500]">
+            <li className="list-none text-cyan-300 text-base md:text-lg"><span className="mx-2"><i class="fa-solid fa-circle-check"></i></span> Quick to ramp  </li>
+            <li className="list-none text-cyan-300 text-base md:text-lg"><span className="mx-2"><i class="fa-solid fa-circle-check"></i></span>Easy to optimize</li>
+            <li className="list-none text-cyan-300 text-base md:text-lg"><span className="mx-2"><i class="fa-solid fa-circle-check"></i></span>Quick to scale up</li>
+            <li className="list-none text-cyan-300 text-base md:text-lg"><span className="mx-2"><i class="fa-solid fa-circle-check"></i></span>Works with all your existing tools</li>
           </div>
         </div>
       </div>

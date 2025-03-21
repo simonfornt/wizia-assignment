@@ -14,7 +14,7 @@ function OutBond() {
         </p>
         <button 
           className="bg-[#0FF1F6] font-nav font-[500] text-black px-6 py-3 rounded-full mt-6  text-sm md:text-base hover:bg-cyan-500 transition-all">
-          Sign up for the Beta
+          Sign up for the Beta <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
         </button>
       </div>
     </div>

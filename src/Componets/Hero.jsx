@@ -29,7 +29,7 @@ const HeroSection = () => {
               It will send personalized sequences to every target contact.
             </p>
             <button className="py-3 px-8 font-nav font-[500] bg-[#0FF1F6] hover:bg-[#0cdce0] rounded-full text-black  text-sm transition-all duration-300 transform hover:scale-105">
-              Sign Up for the Beta
+              Sign Up for the Beta <span><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
             </button>
           </div>
 

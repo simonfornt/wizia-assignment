@@ -27,8 +27,8 @@ function Features() {
             {features.map((feature, index) => (
                 <div key={index} className='p-6 w-full mx-10   px-10 md:w-1/3 text-white bg-[#00222d] rounded-lg shadow-lg'> 
                     <div className='text-cyan-400 text-3xl mb-4'><img src={feature.icon} alt={feature.title} /></div>
-                    <h3 className='text-xl font-bold mb-2'>{feature.title}</h3>
-                    <p className='text-gray-300'>{feature.des}</p>
+                    <h3 className='text-xl font-monster font-[600]  mb-2'>{feature.title}</h3>
+                    <p className='text-gray-300 font-monster font-[300]'>{feature.des}</p>
                 </div>
             ))}
         </div>

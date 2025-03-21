@@ -17,7 +17,7 @@ const TrustedPartners = () => {
 
   return (
     <section className="bg-[#0D2A32] py-8 px-6 md:px-12 lg:px-24 text-center">
-      <h3 className="text-[#5EEAD4] text-sm uppercase tracking-widest mb-6">
+      <h3 className="text-[#5EEAD4] font-monster font-[400]  uppercase tracking-widest mb-6">
         Our Trusted Partners
       </h3>
       <div className="flex flex-wrap justify-evenly items-center gap-6">

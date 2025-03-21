@@ -65,14 +65,14 @@ const TestimonialCarousel = ({ data = testimonials }) => {
                     className="w-12 h-auto md:w-16 lg:w-20"
                   />
                 </div>
-                <p className="text-lg md:text-xl lg:text-2xl leading-relaxed md:leading-loose mb-8 md:mb-14 text-gray-200 px-2 sm:px-4 md:px-8">
+                <p className="text-lg md:text-xl lg:text-2xl font-nav font-[300] leading-relaxed md:leading-loose mb-8 md:mb-14 text-gray-200 px-2 sm:px-4 md:px-8">
                   {testimonial.quote}
                 </p>
                 <div className="space-y-1 md:space-y-2">
-                  <p className="font-bold text-lg md:text-xl lg:text-2xl  text-[#00ced1]">
+                  <p className="font-nav font-[600] text-lg md:text-xl lg:text-2xl  text-[#00ced1]">
                     {testimonial.author}
                   </p>
-                  <p className="text-gray-400 text-sm  lg:text-lg">
+                  <p className="text-gray-400 text-sm font-nav font-[400] lg:text-lg">
                     {testimonial.title}
                   </p>
                 </div>

@@ -24,16 +24,16 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-6">
               {/* <NavLink to="/">Home</NavLink> */}
-              <NavLink to="/about" className="">About us</NavLink>
-              <NavLink to="/pricing">Pricing</NavLink>
+              <NavLink to="/about" className="font-nav">About us</NavLink>
+              <NavLink to="/pricing" className="font-nav">Pricing</NavLink>
               <NavLink to="/Customers">Customers</NavLink>
               <NavLink to="/solutions">Solutions</NavLink>
               
             </div>
           </div>
           <div className="hidden md:flex gap-4">
-            <button className=" bg-[#0FF1F6] py-2 px-4 rounded-full text-sm hover:bg-cyan-400 transition-all ">Book a Demo</button>
-            <button className="border-2 border-white text-white py-2 px-4 text-sm rounded-full">Contact us</button>
+            <button className=" bg-[#0FF1F6] py-2 px-4 font-nav rounded-full text-sm hover:bg-cyan-400 transition-all ">Book a Demo</button>
+            <button className="border-2 font-nav border-white text-white py-2 px-4 text-sm rounded-full">Contact us</button>
           </div>
 
           {/* Mobile Menu Button */}

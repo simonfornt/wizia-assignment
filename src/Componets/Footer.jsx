@@ -8,7 +8,7 @@ function Footer() {
         <div className='mb-4 md:mb-0'>
           <img src={FooterLogo} alt="Wizia Logo" className='w-32 md:w-40' />
         </div>
-        <div className='text-white text-sm md:text-base'>
+        <div className='text-[#96ACAF] text-[16px] md:text-base font-nav font-[300]'>
           Copyright © 2023 Wizia. All rights reserved.
         </div>
       </div>

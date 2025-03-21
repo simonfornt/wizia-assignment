@@ -24,7 +24,7 @@ function StatSection() {
 
         {/* Stats */}
         <div className="grid grid-cols-1 font-monster sm:grid-cols-2 md:grid-cols-3 gap-8">
-          <div className="text-center">
+          <div className="text-left md:text-center">
             <span className="text-[#0FF1F6] font-[700] text-3xl md:text-5xl  block">
               32%
             </span>
@@ -33,7 +33,7 @@ function StatSection() {
             </p>
           </div>
 
-          <div className="text-center">
+          <div className="text-left md:text-center">
             <span className="text-[#0FF1F6] text-3xl md:text-5xl font-bold block">
               75%
             </span>
@@ -42,7 +42,7 @@ function StatSection() {
             </p>
           </div>
 
-          <div className="text-center">
+          <div className="text-left md:text-center">
             <span className="text-[#0FF1F6] text-3xl md:text-5xl font-bold block">
               35%
             </span>

@@ -15,8 +15,8 @@ const TrainingSection = () => {
         }}
       />
       
-      {/* Content Container with responsive adjustments */}
-      <div className="z-10  px-4 py-8 md:py-12">
+      {/* */}
+      <div className="z-10  px-6 py-8 md:py-12">
         <div className="max-w-[500px] md:max-w-none md:ml-[30%] lg:ml-[400px]">
           {/* Responsive typography */}
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-monster font-[600] mb-4 text-left">
@@ -27,12 +27,12 @@ const TrainingSection = () => {
           </h2>
           
           {/* Responsive paragraph text */}
-          <p className="text-base md:text-xl font-nav font-[300] text-gray-200 mb-6 md:mb-8 text-left">
+          <p className=" text-xl font-nav font-[300] text-gray-200 mb-6 md:mb-8 text-left">
             You're in control. Train your aiDR on elements of your Marketing strategy.
           </p>
 
           {/* Responsive list grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2  md:gap-4 font-monster font-[500]">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2  md:gap-4 font-monster font-[500]">
             <li className="list-none text-cyan-300 text-base md:text-lg">Quick to ramp</li>
             <li className="list-none text-cyan-300 text-base md:text-lg">Easy to optimize</li>
             <li className="list-none text-cyan-300 text-base md:text-lg">Quick to scale up</li>
